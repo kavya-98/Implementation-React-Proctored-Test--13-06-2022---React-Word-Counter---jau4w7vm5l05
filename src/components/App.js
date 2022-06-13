@@ -18,7 +18,7 @@ const App = () => {
         maxLength={max}
         onChange={handlechange}
       ></textarea>
-      <div className="word-counter">{char}</div>
+      <div id="word-counter">{char}</div>
       <div id="char-counter">{text.length}</div>
       <input
         type="number"
